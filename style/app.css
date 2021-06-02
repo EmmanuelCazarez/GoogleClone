@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
 }
+/* Esto es para utilizar rem sin perder la perspectiva de los pixeles */
 html {
     font-size: 62.5%;
 }

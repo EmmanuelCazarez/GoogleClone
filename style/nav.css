@@ -1,31 +1,45 @@
+/* Contenedor de todo el nav */
 .nav {
     display: flex;
     flex-direction: row-reverse;
-    height: 10%;
+    height: 7%;
 }
+/* Contenedor de la lista que compone al nav */
 .nav__list {
     align-items: center;
     display: flex;
-    padding-right: 50px;
+    padding: 10px;
 }
 .nav__list li {
     display: inline-flex;
     list-style: none;
-    padding: 15px;
+    padding: 10px;
 }
 .nav__list li a {
-    color: black;
-    font-size: 1.6rem;
+    color: rgba(0,0,0,0.87);
+    font-size: 1.2rem;
     text-decoration: none;
 }
-.nav__list li a:nth-child(-n + 2):hover {
+/* Selecciono los primeros dos hijos li del nav list */
+.nav__list li:nth-child(-n + 2):hover {
     text-decoration: underline;
 }
+/* Imagen grid (tercer elemento li) */
 .nav__list-grid {
-    padding-top: 8px;
+    border-radius: 2px;
+    margin-top: 8px;
+    opacity: 0.7;
+    padding: 5px;
+    width: 28px;
 }
+/* Imagen de perfil */
 .nav__list-profile {
     border-radius: 50%;
-    padding-top: 8px;
-    width: 50px;
+    margin-top: 8px;
+    padding: 2px;
+    width: 45px;
+}
+/* Selecciono los dos ultimos hijos li del navlist y especifico que utilice los atributos de img */
+.nav__list li:nth-last-child(-n + 2) a img:hover {
+    background-color: rgba(150, 148, 148, 0.623);
 }

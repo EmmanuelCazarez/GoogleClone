@@ -1,14 +1,16 @@
 .container {
     display: flex;
     flex-direction: column;
-    height: 85%;
+    height: 88%;
 }
+/* Contenedor del logo de Google */
 .container__logo {
     align-items: flex-end;
     display: flex;
     height: 35%;
     justify-content: center;
 }
+/* Contenedor que engloba el searchbar y los dos botones de debajo */
 .container__searchbar {
     display: flex;
     flex-wrap: wrap;
@@ -16,6 +18,7 @@
     justify-content: center;
     height: 20%;
 }
+/* Contenedor de los items del searchbar */
 .container__searchbar-items {
     align-items: center;
     border: 1px solid #dfe1e5;
@@ -24,6 +27,9 @@
     padding: 0 30px 0 0;
     min-width: 600px;
     width: 30%;
+}
+.container__searchbar-items:hover {
+    border: 1px groove #a1a1a1;
 }
 .container__searchbar-items input {
     border: none;
@@ -37,6 +43,7 @@
     padding-left: 15px;
     width: 32px;
 }
+/* Contenedor de los dos botones debajo del searchbar */
 .container__buttons {
     align-items: center;
     display: flex;
@@ -55,6 +62,7 @@
     box-shadow: 0 1px 1px rgba(0,0,0,.1);
     border: 1px solid #dadce0;
 }
+/* Contenedor del texto que se encuentra debajo de los dos botones */
 .container__description {
     display: flex;
     height: 40%;
@@ -77,11 +85,12 @@
 .container__description ul li a:hover {
     text-decoration: underline;
 }
+/* Contenedor del indicador del país desde el que buscas */
 .container__country {
     align-items: center;
     background-color:#dadce0;
     display: flex;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     height: 5%;
     opacity: 0.5;
     padding-left: 30px;

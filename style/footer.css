@@ -1,3 +1,25 @@
+/* Contenedor padre del footer */
 .footer {
+    align-items: center;
+    background-color:#dadce0;
+    border-top: 1px solid #bbbbbb;
+    display: flex;
     height: 5%;
+    justify-content: space-between;
+    opacity: 0.5;
+}
+/* Contenedores de las dos listas existentes */
+.footer__list {
+    display: inline-flex;
+    list-style: none;
+    padding: 0 20px 0 20px;
+}
+.footer__list a {
+    color: black;
+    font-size: 1.4rem;
+    padding: 0 15px 0 15px;
+    text-decoration: none;
+}
+.footer__list a:hover {
+    text-decoration: underline;
 }
