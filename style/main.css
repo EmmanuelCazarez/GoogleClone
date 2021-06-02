@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+}
+.container__logo {
+    height: 40%;
+}
+.container__searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+}
+.container__searchbar-cont {
+    align-items: center;
+    border: 1px solid #dfe1e5;
+    border-radius: 100px;
+    display: flex;
+    padding: 0 30px 0 0;
+    width: 50%;
+}
+.container__searchbar-cont input {
+    border: none;
+    height: 50px;
+    outline: none;
+    padding-left: 15px;
+    width: 100%;
+}
+.container__searchbar-cont img {
+    opacity: 0.6;
+    padding-left: 15px;
+    width: 40px;
+}
+.container__description {
+    height: 35%;
+}
+.container__country {
+    height: 5%;
+}

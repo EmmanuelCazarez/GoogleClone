@@ -1,6 +1,7 @@
 .nav {
     display: flex;
     flex-direction: row-reverse;
+    height: 10%;
 }
 .nav__list {
     align-items: center;
