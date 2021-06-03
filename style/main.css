@@ -1,7 +1,7 @@
 .container {
     display: flex;
     flex-direction: column;
-    height: 88%;
+    height: 85vh;
 }
 /* Contenedor del logo de Google */
 .container__logo {
@@ -12,11 +12,11 @@
 }
 /* Contenedor que engloba el searchbar y los dos botones de debajo */
 .container__searchbar {
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
     height: 20%;
+    justify-content: center;
 }
 /* Contenedor de los items del searchbar */
 .container__searchbar-items {
@@ -36,7 +36,6 @@
     height: 45px;
     outline: none;
     padding-left: 15px;
-    width: 100%;
 }
 .container__searchbar-items img {
     opacity: 0.3;
@@ -70,12 +69,12 @@
 }
 .container__description span {
     font-size: 1.4rem;
-    margin: 5px;
+    margin: 0 5px;
 }
 .container__description ul li {
     display: inline-flex;
     list-style: none;
-    margin: 5px;
+    margin: 0 5px;
 }
 .container__description ul li a {
     color: #1a0dab;
