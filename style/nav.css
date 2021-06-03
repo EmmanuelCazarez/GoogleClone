@@ -1,8 +1,8 @@
 /* Contenedor de todo el nav */
 .nav {
     display: flex;
-    flex-direction: row-reverse;
-    height: 7%;
+    height: 10vh;
+    justify-content: flex-end;
 }
 /* Contenedor de la lista que compone al nav */
 .nav__list {
@@ -27,7 +27,6 @@
 /* Imagen grid (tercer elemento li) */
 .nav__list-grid {
     border-radius: 2px;
-    margin-top: 8px;
     opacity: 0.7;
     padding: 5px;
     width: 28px;
@@ -35,7 +34,6 @@
 /* Imagen de perfil */
 .nav__list-profile {
     border-radius: 50%;
-    margin-top: 8px;
     padding: 2px;
     width: 45px;
 }
